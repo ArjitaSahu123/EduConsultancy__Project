@@ -1,0 +1,296 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Import Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+PE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+PE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.skeleton {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+      background-color: #e0e0e0;
+  }
+  50% {
+      background-color: #f0f0f0;
+  }
+  100% {
+      background-color: #e0e0e0;
+  }
+}
+
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add this to your CSS to ensure consistent sizing */
+.testimonial-container {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-item {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+
+
+.lora-blog {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.btnhover {
+  transition: transform 0.2s ease; 
+}
+.qbtn{
+  transition: 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 10px;
+  
+}
+.qbtn:hover{
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-10px) scale(1);
+}
+.btnhover:hover {
+  transform: scale(1.05); 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.plushover{
+  transition: 0.2s ease;
+}
+.plushover:hover{
+  transform: scale(1.15);
+}
+
+.inputborder{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.logoshadow{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(255, 115, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.parallelogram {
+  width: 50%;
+  background-image: url('./assets/hero.png'); 
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+
+.sidenav{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.btn{
+  transition: 0.2s all;
+}
+.btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  transform: translateY(-3px) scale(1.1);
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  transform: scale(0.95);
+  transition: 0.2s all;
+}
+.card:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translateY(-3px);
+}
+.line{
+  width: full;
+  height: 1px;
+  border-radius: 50px;
+  background-color: rgb(216, 216, 216);
+}
+
+.pcard{
+  transition: 0.2s all;
+  transform: scale(0.9);
+}
+.pcard:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: translateY(-10px) scale(0.9);
+}
+
+.lable{
+  transform: scale(0.8);
+}
+
+.navbtn{
+  transition: 0.2s all;
+}
+.navbtn:hover{
+  transform: translateY(-5px) scale(1.05);
+}
+
+.pricingcard{
+  transition: 0.2s all;
+  transform: scale(0.9);
+  width: 30%;
+  margin: 0;
+  padding: 22px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.pricingcard:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: translateY(-10px) scale(0.9);
+}
+
+.boxshadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.border-red-500 {
+  border: 2px solid red;
+}
+.border-gray-300 {
+  border: 2px solid gray;
+}
+.inputError {
+  border: 2px solid red;
+  background-color: #f8d7da; /* Light red background */
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
