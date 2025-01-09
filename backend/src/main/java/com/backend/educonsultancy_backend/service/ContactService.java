@@ -13,6 +13,6 @@ public interface ContactService {
     Contact updateContact(Long contactId, ContactDto contactDto);  // Update a contact
     void deleteContact(Long contactId);  // Delete a contact
     // Add this method in ContactService interface
-    List<Contact> getContactsByUserId(Long userId);
+    List<Contact> getContactsByUserId(Integer userId);
 
 }

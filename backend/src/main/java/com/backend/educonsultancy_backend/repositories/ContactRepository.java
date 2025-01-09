@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface ContactRepository extends JpaRepository<Contact,Long> {
     // Custom query to get contacts by userId
-    List<Contact> findByUser_UserId(Long userId);
+    List<Contact> findByUser_UserId(Integer userId);
 }

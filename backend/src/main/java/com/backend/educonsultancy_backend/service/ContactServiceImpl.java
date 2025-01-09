@@ -82,7 +82,7 @@ public class ContactServiceImpl implements ContactService{
     }
 
     @Override
-    public List<Contact> getContactsByUserId(Long userId) {
+    public List<Contact> getContactsByUserId(Integer userId) {
         // Fetch contacts by userId
         return contactRepository.findByUser_UserId(userId);
     }
